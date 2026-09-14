@@ -1,104 +1,131 @@
-# Retail Sales Analysis Using SQL
+# Retail Sales Analysis
 
 ## 📌 Project Overview
 
-This project analyzes retail sales data using MySQL to identify sales performance, profitability, customer purchasing patterns, and business trends.
+This project analyzes retail sales data to evaluate sales performance, profitability, customer behavior, and business trends.
 
-The analysis covers sales across different cities, categories, brands, sales channels, payment methods, store formats, and time periods.
+The project follows an end-to-end data analytics workflow using SQL, Excel, and Power BI.
 
 ## 🎯 Business Objectives
 
 - Analyze overall sales and profit performance
-- Identify top-performing cities and product categories
-- Compare brand performance
-- Analyze sales across different channels
-- Evaluate payment methods and store formats
-- Identify monthly sales and profit trends
-- Analyze profitability and profit margins
+- Identify sales performance across cities and product categories
+- Compare different sales channels
+- Analyze brand and category performance
+- Evaluate monthly sales trends
+- Measure overall profitability and profit margin
+- Build an interactive dashboard for business insights
 - Perform data quality checks
-- Apply advanced SQL techniques to answer business questions
 
 ## 🛠️ Tools Used
 
-- MySQL
-- MySQL Workbench
-- SQL
+- **MySQL** – Data analysis and SQL queries
+- **Microsoft Excel** – Data analysis, PivotTables, and charts
+- **Power BI** – Interactive dashboard and data visualization
+- **GitHub** – Project documentation and portfolio
 
 ## 📊 Dataset
 
-- 11,987 retail sales transactions
-- 8 cities
-- Transaction data from 2024
-- Includes sales, units, cost, category, brand, city, channel, payment method and other business attributes
+The dataset contains **100,000 retail sales records** from 2024.
 
-## 🔍 Analysis Performed
+Key fields include:
 
-### 1. Overall Sales Performance
-- Total transactions
-- Total revenue
-- Total profit
-- Profit margin
+- Invoice ID
+- Invoice Date
+- City
+- Store Format
+- Category
+- Brand
+- Channel
+- Payment Mode
+- Units
+- Cost Price
+- Selling Price
+- Revenue
+- Cost
+- Margin
+- Margin %
+- Stock on Hand
+- Reorder Level
+- Lead Time
+- Customer Age
+- Customer Gender
+- Loyalty Flag
 
-### 2. City Analysis
-- Revenue by city
-- City ranking
-- Identification of highest-performing cities
+## 🔍 SQL Analysis
 
-### 3. Category Analysis
-- Revenue by category
-- Units sold by category
-- Profit by category
-- Category profitability
+The SQL analysis includes:
 
-### 4. Brand Analysis
-- Revenue by brand
-- Units sold by brand
-- Profit by brand
-
-### 5. Channel Analysis
-- Revenue by sales channel
-- Profit by channel
-- Transaction count by channel
-- Average transaction value
-
-### 6. Payment Method Analysis
-- Sales performance by payment method
-- Profit by payment method
-
-### 7. Store Format Analysis
-- Revenue and profit by store format
-
-### 8. Time-Based Analysis
-- Monthly revenue
-- Monthly profit
-- Monthly performance trends
-
-### 9. Advanced SQL Analysis
-The project demonstrates:
-
-- Aggregate functions
-- GROUP BY
-- HAVING
-- CASE WHEN
+- Overall revenue and profit analysis
+- City-wise sales analysis
+- Category-wise sales and profit analysis
+- Brand performance analysis
+- Sales channel analysis
+- Payment method analysis
+- Store format analysis
+- Monthly revenue and profit trends
+- Profit margin analysis
+- Units sold analysis
+- City and category comparisons
+- Data quality checks
+- CASE WHEN analysis
 - Subqueries
 - CTEs
-- Window functions
-- RANK()
-- Date functions
-- Data quality checks
+- Window functions and ranking
+- HAVING and aggregation analysis
 
-## 💡 Key Findings
+## 📈 Excel Analysis
 
-- Delhi was the highest-revenue city in the analysis.
-- Fruits was the highest-revenue category.
-- Online was the highest-revenue sales channel.
-- Total revenue generated was approximately ₹46.77 lakh.
-- Total profit generated was approximately ₹9.35 lakh.
+Excel was used to create:
+
+- KPI summary
+- PivotTables
+- Revenue by city
+- Revenue by category
+- Revenue by channel
+- Monthly revenue trend
+- Profit by category
+- Profit by brand
+- Units sold by category
+- Interactive-style dashboard charts
+
+## 📊 Power BI Dashboard
+
+The Power BI dashboard provides an interactive view of the retail business performance.
+
+### Dashboard KPIs
+
+- **Total Revenue:** ₹39.34M
+- **Total Profit:** ₹7.87M
+- **Profit Margin:** 20.02%
+- **Total Transactions:** 100,000
+
+### Dashboard Visuals
+
+- Revenue by City
+- Revenue by Category
+- Revenue by Channel
+- Monthly Revenue Trend
+- City slicer
+- Channel slicer
+
+## 💡 Key Insights
+
+- The business generated approximately **₹39.34 million in revenue** across 100,000 transactions.
+- Total profit/margin was approximately **₹7.87 million**, resulting in an overall profit margin of **20.02%**.
+- Revenue was relatively balanced across cities, with no single city dominating overall sales.
+- Product category performance was also relatively balanced.
+- Online, Offline, and Omnichannel sales contributed significantly to overall revenue.
+- Monthly revenue remained relatively stable throughout 2024 without a major seasonal spike.
 
 ## 📁 Project Files
 
-- `RETAIL ANALYSIS PROJECT.sql` — Complete SQL analysis containing all queries used in the project.
+- `RETAIL ANALYSIS PROJECT.sql` – Complete SQL analysis
+- `Retail Sales Analysis.xlsx` – Excel analysis and dashboard
+- `Retail Sales Analysis Power BI.pbix` – Power BI dashboard
 
-## 📈 Conclusion
+## 🚀 Conclusion
 
-The analysis provides insights into sales performance, profitability, product categories, brands, cities and sales channels. These insights can help businesses identify strong-performing areas and opportunities for improving profitability and sales performance.
+This project demonstrates an end-to-end data analytics workflow, from data analysis using SQL to reporting and visualization using Excel and Power BI.
+
+The analysis provides insights into revenue, profitability, sales channels, cities, categories, brands, and monthly business performance.
