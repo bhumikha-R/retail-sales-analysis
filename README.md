@@ -90,6 +90,8 @@ Excel was used to create:
 - Interactive-style dashboard charts
 
 ## 📊 Power BI Dashboard
+<img width="1776" height="932" alt="image" src="https://github.com/user-attachments/assets/262f6e1a-1da2-4952-a551-da40529aabe5" />
+
 
 The Power BI dashboard provides an interactive view of the retail business performance.
 
